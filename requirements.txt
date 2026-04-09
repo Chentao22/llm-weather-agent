@@ -1,0 +1,5 @@
+gradio
+zhipuai
+dashscope
+python-dotenv
+requests
