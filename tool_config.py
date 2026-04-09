@@ -1,0 +1,36 @@
+weather_tools=[
+    {
+        "type":"function",
+        "function":{
+            "name":"get_current_weather",
+            "description":"获取指定城市的当前天气",
+            "parameters":{
+                "type":"object",
+                "properties":{
+                    "city":{
+                        "type":"string",
+                        "description":"中文格式的城市名称"
+                    }
+                },
+                "required":["city"]
+            },
+        }
+    },
+{
+        "type":"function",
+        "function":{
+            "name":"get_future_weather",
+            "description":"获取指定城市未来几天的天气",
+            "parameters":{
+                "type":"object",
+                "properties":{
+                    "city":{
+                        "type":"string",
+                        "description":"中文格式的城市名称"
+                    }
+                },
+                "required":["city"]
+            },
+        }
+    }
+]
