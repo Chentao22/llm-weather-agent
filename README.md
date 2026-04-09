@@ -1,2 +1,7 @@
-# llm-weather-agent
-基于大模型 Function Calling 的天气查询助手
+# 天气查询智能体
+基于大模型 Function Calling 工具调用实现的智能问答助手
+
+## 功能
+- 智能判断是否需要调用天气工具
+- 支持多模型切换（智谱 / 百炼）
+- Gradio 可视化界面
